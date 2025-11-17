@@ -7,8 +7,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <h1>Prop logic</h1>
   <div>
+    <h1>Prop logic</h1>
     <p>This is the message</p>
     <p>{{ msg }}</p>
   </div>
