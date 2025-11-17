@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Slot examples</h1>
+    <h1>Slot example</h1>
     <slot name="header">
-      <h2>Default Header</h2>
+      <h4>Default Header</h4>
     </slot>
     <slot>
       <p>This is the default content.</p>
