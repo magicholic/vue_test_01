@@ -11,6 +11,7 @@ const changeColor = () => {
 
 <template>
   <div id="colorChangeSection">
+    <h1>Color change logic</h1>
     <div id="colorChangeBtn">
       <button @click="changeColor" class="btn btn-sm btn-outline-primary">
         Click to change color

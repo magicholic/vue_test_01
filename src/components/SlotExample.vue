@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Slot examples</h1>
     <slot name="header">
       <h2>Default Header</h2>
     </slot>

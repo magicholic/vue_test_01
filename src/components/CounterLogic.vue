@@ -21,6 +21,7 @@ function counterMsg() {
 
 <template>
   <div id="counterSection">
+    <h1>Counter Logic</h1>
     <div id="counterLogic">
       <button @click="increment" class="btn btn-sm btn-outline-primary">Increment Counter</button
       ><br />

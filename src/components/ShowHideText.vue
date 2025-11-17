@@ -19,6 +19,7 @@ function displayClass() {
 
 <template>
   <div id="display-text">
+    <h1>Show hide text</h1>
     <button @click="showText" class="btn btn-sm btn-outline-primary">{{ btnText }}</button>
     <p v-if="textDisplay" :class="displayClass()" class="text-primary">This is the message</p>
   </div>
