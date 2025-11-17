@@ -44,7 +44,7 @@ const handleClick = () => {
       </SlotExample>
     </div>
     <div class="cell col-12 col-md-6 col-lg-4">
-      <SlotExample></SlotExample>
+      <SlotExample v-slot:header>header text</SlotExample>
     </div>
     <div class="cell col-12 col-md-6 col-lg-4">
       <PropExample msg="1234 - 1234++++" />
