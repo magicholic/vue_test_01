@@ -5,7 +5,7 @@ const items = ref(['Item 1', 'Item 2', 'Item 3'])
 
 <template>
   <div id="listItems">
-    <h3>List of Items:</h3>
+    <h1>List of Items:</h1>
     <ul>
       <li v-for="(item, index) in items" :key="index">
         <a href="javascript://">

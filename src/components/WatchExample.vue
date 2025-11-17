@@ -14,7 +14,7 @@ watch(watchedValue, (newValue, oldValue) => {
 
 <template>
   <div id="watchExample">
-    <h3>Watch Example:</h3>
+    <h1>Watch Example:</h1>
     <p>Watched Value: {{ watchedValue }}</p>
     <button @click="watchedValue++" class="btn btn-sm btn-outline-primary">
       Increase Watched Value</button

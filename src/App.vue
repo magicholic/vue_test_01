@@ -5,7 +5,7 @@ import ColorChangeText from './components/ColorChangeText.vue'
 import ShowHideText from './components/ShowHideText.vue'
 import ListItems from './components/ListItems.vue'
 import WatchExample from './components/WatchExample.vue'
-import EmitExample from './components/emitExample.vue'
+import EmitExample from './components/EmitExample.vue'
 import SlotExample from './components/SlotExample.vue'
 import PropExample from './components/PropExample.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -44,7 +44,7 @@ const handleClick = () => {
       </SlotExample>
     </div>
     <div class="cell col-12 col-md-6 col-lg-4">
-      <SlotExample></SlotExample>
+      <SlotExample v-slot:header>header text</SlotExample>
     </div>
     <div class="cell col-12 col-md-6 col-lg-4">
       <PropExample msg="1234 - 1234++++" />
