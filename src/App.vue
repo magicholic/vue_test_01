@@ -9,6 +9,7 @@ import EmitExample from './components/EmitExample.vue'
 import SlotExample from './components/SlotExample.vue'
 import PropExample from './components/PropExample.vue'
 import FirstComp from './components/FirstComp.vue'
+import RoutesExample from './components/RoutesExample.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
@@ -53,6 +54,9 @@ provide('parentValue', 1234)
     </div>
     <div class="cell col-12 col-md-6 col-lg-4">
       <FirstComp />
+    </div>
+    <div class="cell col-12 col-md-6 col-lg-4">
+      <RoutesExample />
     </div>
   </div>
 </template>
