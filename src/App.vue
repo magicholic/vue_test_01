@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { provide, ref } from 'vue'
 import CounterLogic from './components/CounterLogic.vue'
 import ColorChangeText from './components/ColorChangeText.vue'
 import ShowHideText from './components/ShowHideText.vue'
@@ -8,6 +8,8 @@ import WatchExample from './components/WatchExample.vue'
 import EmitExample from './components/EmitExample.vue'
 import SlotExample from './components/SlotExample.vue'
 import PropExample from './components/PropExample.vue'
+import FirstComp from './components/FirstComp.vue'
+import RoutesExample from './components/RoutesExample.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
@@ -16,6 +18,7 @@ const handleClick = () => {
   clickValue.value++
   console.log(`Button clicked ${clickValue.value} times`)
 }
+provide('parentValue', 1234)
 </script>
 
 <template>
@@ -48,6 +51,12 @@ const handleClick = () => {
     </div>
     <div class="cell col-12 col-md-6 col-lg-4">
       <PropExample msg="1234 - 1234++++" />
+    </div>
+    <div class="cell col-12 col-md-6 col-lg-4">
+      <FirstComp />
+    </div>
+    <div class="cell col-12 col-md-6 col-lg-4">
+      <RoutesExample />
     </div>
   </div>
 </template>
