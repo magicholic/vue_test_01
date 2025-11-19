@@ -1,6 +1,6 @@
 <script setup>
-import { inject } from 'vue';
-const parentValue = inject('parentValue');
+import { inject } from 'vue'
+const parentValue = inject('parentValue')
 </script>
 
 <template>
