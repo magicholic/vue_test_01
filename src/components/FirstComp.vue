@@ -1,6 +1,5 @@
 <script setup>
-import SecondComp from './SecondComp.vue';
-
+import SecondComp from './SecondComp.vue'
 </script>
 
 <template>
